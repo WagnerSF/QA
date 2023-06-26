@@ -1,0 +1,411 @@
+@media (min-width: 2048px) and (max-width: 3840px) {
+    .main-content {
+
+        scroll-snap-type: y mandatory;
+        height: 100vh;
+        width: 100%;
+        overflow-y: scroll;
+    }
+
+
+    .conteiner {
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+
+    }
+
+    .section {
+        scroll-snap-align: start;
+    }
+
+    .u-section-1 {
+        min-height: 100vh;
+
+    }
+
+    .u-image-1-logo {
+
+        position: fixed;
+        right: 22px;
+        width: 26% !important;
+        height: 56px;
+        padding: 2%;
+
+    }
+
+    #countdown {
+        font-size: 4rem;
+    }
+
+    .countdown-container {
+        margin-top: 50%;
+    }
+
+    .countdown-separator {
+        font-size: 2.1rem;
+        line-height: 1.5;
+    }
+
+    .conteiner .u-section-2 {
+        background-image: url("images/default-image.jpg?rand=25cd");
+        min-height: 100%;
+        background-position: 50% 50%;
+        flex: 50%;
+
+    }
+
+    .u-section-2 .u-layout-wrap-1 {
+        margin-top: 20;
+        margin-bottom: 0;
+    }
+
+    .u-section-2 .u-layout-cell-1 {
+        min-height: 100%;
+
+    }
+
+    .u-section-2 .u-container-layout-1 {
+        display: flexbox;
+        padding: 3px 20px;
+        margin-left: 15%;
+        margin-right: 10%;
+        margin-top: 15%;
+        text-align: initial;
+    }
+
+    .u-section-2 .u-text-1 {
+
+        font-size: 5.0rem;
+        font-style: italic;
+        margin: 10px auto 0 0;
+        width: auto;
+        margin-top: 75px;
+    }
+
+    .u-section-2 .u-text-2 {
+
+        font-size: 2.275rem;
+        line-height: 1.3;
+        margin: 106px 15px 0 10px;
+
+    }
+
+    .u-section-2 .u-text-3 {
+        font-size: 1.975rem;
+        line-height: 1.0;
+        padding: 1px;
+        width: 200;
+        margin: 2px 64px 0 0px;
+
+    }
+
+    .u-section-2 .u-layout-cell-2 {
+        height: 100vh;
+    }
+
+    .u-section-2 .u-container-layout-2 {
+        padding: 0;
+    }
+
+    .u-section-2 .u-gallery-1 {
+        height: 100vh;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .u-section-2 .u-carousel-indicators-1 {
+        position: absolute;
+        bottom: 10px;
+        width: auto;
+        height: auto;
+    }
+
+    .u-section-2 .u-carousel-item-1 {
+        margin-right: 0;
+    }
+
+    .u-section-2 .u-over-slide-1 {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        padding: 30px;
+    }
+
+    .u-section-2 .u-carousel-item-2 {
+        margin-right: 0;
+    }
+
+    .u-section-2 .u-over-slide-2 {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        padding: 30px;
+    }
+
+    .u-section-2 .u-carousel-item-3 {
+        margin-right: 0;
+    }
+
+    .u-section-2 .u-over-slide-3 {
+        background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2));
+        padding: 30px;
+    }
+
+    .u-section-2 .u-carousel-control-1 {
+        position: absolute;
+        left: 39px;
+        width: 31px;
+        height: 31px;
+        top: auto;
+        right: auto;
+        bottom: 21px;
+        padding: 0;
+    }
+
+    .u-section-2 .u-carousel-control-2 {
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        left: 80px;
+        top: auto;
+        right: auto;
+        bottom: 21px;
+        padding: 0;
+    }
+
+    .u-section-2 .setas {
+        position: absolute;
+        width: 31px;
+        height: 31px;
+        left: 80px;
+        top: auto;
+        right: auto;
+        bottom: 21px;
+        padding: 0;
+    }
+
+    .u-section-3 {
+        background-image: url("images/default-image.jpg?rand=4460");
+        background-position: 50% 50%;
+        min-height: 100vh;
+
+    }
+
+    .u-section-3 .u-layout-wrap-1 {
+        margin-top: -14px;
+        margin-bottom: 0;
+    }
+
+    .u-section-3 .u-layout-cell-1 {
+        min-height: 100vh;
+    }
+
+    .u-section-3 .u-layout-cell-2 {
+        min-height: 100vh;
+        background-image: none;
+    }
+
+    .u-section-3 .u-container-layout-2 {
+        box-shadow: 5px 5px 20px 0 rgba(0, 0, 0, 0.4);
+        padding: 30px 60px;
+    }
+
+    .u-section-3 .u-text-1 {
+        font-size: 6rem;
+        margin: 18% auto 0% 19%;
+    }
+
+    .u-section-3 .u-tere {
+        font-size: 2.9rem;
+        margin: 113px auto 0 19%;
+    }
+
+    .u-section-3 .logoCircular {
+        position: absolute;
+        width: 356px;
+        height: 356px;
+        left: 78%;
+        top: 59%;
+        right: auto;
+        bottom: 21px;
+        padding: 1px;
+    }
+
+    .u-section-3 .atrativos {
+        font-size: 6rem;
+        padding: 1px;
+        margin: 2% auto 0 29%;
+        text-align: left;
+    }
+
+    .u-section-3 .atrativos-2 {
+        font-size: 2rem;
+        padding: 1px;
+        margin: 0% auto 0 29%;
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 78px;
+    }
+
+    #linha-horizontal {
+        width: 33%;
+        border: 4px solid #adbab5;
+        margin: 20% 1px -108px -62px;
+        display: flex;
+    }
+
+    .u-section-3 .u-text-2 {
+        font-size: 2.275rem;
+        line-height: 1.8;
+        margin: -17px 297px -116px 335px;
+        padding: 2px;
+    }
+
+    .u-section-3 .u-btn-1 {
+        font-size: 0.875rem;
+        background-image: none;
+        border-style: solid;
+        font-weight: normal;
+        width: 99px;
+        margin: 37px auto 0 69px;
+        padding: 7px 7px 8px 6px;
+    }
+
+
+
+
+    .u-section-4 .u-text-1 {
+        font-size: 7rem;
+        margin-left: 10%;
+    }
+
+    .u-section-4 .u-text-2 {
+        font-size: 4.3rem;
+        margin: 75px 144px 0 10%;
+    }
+
+    .u-section-4 .u-form-1 {
+        font-size: 4.3rem;
+
+    }
+
+    .u-section-4 {
+        min-height: 90vh;
+    }
+
+    .u-section-4 .u-layout-wrap-1 {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .u-section-4 .u-layout-cell-1 {
+        min-height: 90%;
+    }
+
+    .u-section-4 .u-container-layout-1 {
+        padding: 3px 0 5px;
+    }
+
+    .u-section-4 .u-text-1 {
+        font-size: 6rem;
+        margin-top: 25%;
+        margin-bottom: 10;
+        margin-left: 4%;
+    }
+
+    .u-section-4 .u-text-2 {
+        font-size: 2.875rem;
+        line-height: 1.2;
+        margin: 6px 150px 0 4%;
+    }
+
+    .u-section-4 .u-form-1 {
+        height: 90px;
+        margin: 80px auto 0 15%;
+        margin-right: 9%;
+        font-size: 2.4rem;
+    }
+
+    .u-section-4 .u-input-1 {
+        height: 150px;
+    }
+
+    .u-section-4 .u-input-2 {
+        height: 150px;
+    }
+
+    .u-section-4 .u-input-3 {
+        height: 150px;
+    }
+
+    .u-section-4 .u-form-group-4 {
+        height: 150px;
+        margin-bottom: auto;
+    }
+
+    .u-section-4 .u-input-4 {
+        height: 170px;
+    }
+
+    .u-section-4 .u-btn-1 {
+        border-style: solid;
+        background-color: transparent;
+    }
+
+    .u-section-4 .u-image-1 {
+        min-height: 70%;
+        background-image: url("../images/bruno.png");
+        background-position: 50% 50%;
+    }
+
+    .u-section-4 .u-container-layout-2 {
+        padding: 20px 0;
+    }
+
+
+
+
+
+
+
+    .u-section-5 {
+        min-height: 10vh;
+
+    }
+
+    .u-section-5 .u-image-1 {
+        width: 13%;
+        height: 10%;
+        margin-right: 18%;
+        padding: 10px;
+        margin-top: 48px;
+        margin-bottom: -125px;
+    }
+
+    .u-section-5 .u-text-1 {
+        font-size: 2.675rem;
+        line-height: 1.2;
+        width: 23%;
+        margin: auto;
+        padding: 1px;
+        text-align: center;
+
+    }
+
+    .u-section-5 .u-text-2 {
+        font-size: 0.575rem;
+        text-align: center;
+        line-height: 1.2;
+        min-width: 285px;
+        padding: 2px;
+        margin-left: 971px;
+        margin-top: -37px;
+    }
+
+    .u-section-5 .u-social-icons-1 {
+        height: 35%;
+        min-height: 65px;
+        width: 10%;
+        min-width: 160px;
+        margin: -1.4% auto 0 21%;
+    }
+
+}
